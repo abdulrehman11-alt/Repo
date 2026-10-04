@@ -1,0 +1,22 @@
+{
+  "name": "novastudio-project",
+  "version": "1.0.0",
+  "description": "NovaStudio professional digital solutions website with a TypeScript API",
+  "main": "dist/api.js",
+  "scripts": {
+    "dev": "tsx api.ts",
+    "build": "tsc",
+    "start": "node dist/api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
